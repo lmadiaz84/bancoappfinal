@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/archivo.css">
+    <title>Home Banking</title>
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="./imagen/iconobanco.jpg" alt="icono banco">
+        <div class="align-left">
+            <span id="nombre">Bienvenido/a</span>
+            <img class="avatar" src="./imagen/iconoperfil.jpg" alt="icono perfil">
+        </div>
+    </div>
+    <div class="contenedor-blanco">
+        <div class="contenedor-menu">
+            <h1 class="tu-cuenta">Tu cuenta</h1>
+            <input id="txtExtraer" type="number" placeholder="Monto a extraer">
+            <button class="links" onclick="extraerDinero()">Extraer dinero</button>
+            <input id="txtDepositar" type="number" placeholder="Monto a depositar">
+            <button class="links" onclick="depositarDinero()">Depositar dinero</button>
+            <input id="txtLimite" type="number" placeholder="Nuevo límite de extracción">
+            <button class="links" onclick="cambiarLimiteDeExtraccion()">Límite extracción</button>
+        </div>
+    </div>
+    <div class="contenedor-verde">
+        <div class="cuenta-informacion">
+            <h3 id="saldo-cuenta">$</h3>
+            <p id="limite-extraccion">Tu límite de extracción es: </p>
+        </div>
+    </div>
+    <footer class="footer">
+        <h2>Nuestra dirección y Telefono</h2>
+        <p>Nuestra hubicación es: Cristobal Colon 365, CABA, Argentina.
+            Teléfono: 4799-xxxx o WhatSapp: 11-1231XXXX
+        </p>
+    </footer>
+
+    <script type="text/javascript" src="./js/main2.js"></script>
+</body>
+</html>

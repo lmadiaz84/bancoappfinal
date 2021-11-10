@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: rgb(0, 72, 139);
+}
+.avatar {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    vertical-align: text-bottom;
+}
+
+.logo {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    text-align: left;
+    vertical-align: text-bottom;
+}
+.align-left {
+    display: flex;
+    padding: 8px;
+
+    align-items: center;
+}
+#nombre {
+    display: inline-block;
+    margin-right: 10px;
+    overflow: hidden;
+
+    font-size: 14px;
+
+    text-overflow: ellipsis;
+
+    color: #fff;
+}
+.header {
+    display: flex;
+    width: 65%;
+    margin: 7% auto 0;
+    margin-bottom: 15px;
+
+    justify-content: space-between;
+}
+.tu-cuenta {
+    padding-left: 24px;
+    margin: 0;
+    margin-left: -30px;
+    font-family: "Source Sans Pro";
+    font-size: 32px;
+    font-weight: normal;
+
+    color: #2a333d;
+    border-left: 6px solid #2cc197;
+}
+.cuenta-informacion {
+    display: block;
+    width: 100%;
+}
+.contenedor-blanco {
+    display: flex;
+    width: 65%;
+    padding: 30px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    border: 1px solid #979797;
+    border-radius: 8px;
+    background-color: #fff;
+
+    justify-content: center;
+}
+.contenedor-verde {
+    display: flex;
+    width: 65%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+
+    color: white;
+    border-radius: 8px;
+    background-color: #0fe0a5;
+
+    align-items: center;
+}
+.contenedor-menu {
+    display: block;
+    width: 35%;
+    padding-right: 20px;
+}
+#saldo-cuenta {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow: hidden;
+
+    font-size: 6.5vw;
+
+    text-align: center;
+    text-overflow: ellipsis;
+}
+#cliente-cuenta{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow: hidden;
+
+    font-size: 40px;
+
+    text-align: center;
+    text-overflow: ellipsis; 
+}
+#limite-extraccion {
+    overflow: hidden;
+
+    font-size: 25px;
+
+    text-overflow: ellipsis;
+}
+.links {
+
+    display: block;
+    padding: 0;
+    margin: 20px 0;
+    margin-bottom: 20px;
+
+    font-size: 16px;
+}
+#txtExtraer{
+    margin-top: 5%;
+}
+.tarjeta {
+    margin-top: 1%;
+    display: flex;
+    position: relative;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(211, 211, 211, 0.952);
+    border-style: groove;
+    width: 10%;
+}
+.footer{
+    display: flex;
+    width: 65%;
+    box-sizing: border-box;
+    margin: 1% auto;
+    flex-direction: column;
+    text-align:center;
+    align-items:center;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/archivo.css">
+    <title>Inicio home</title>
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="./imagen/iconobanco.jpg" alt="icono banco">
+        <div class="align-left">
+            <span id="nombre">Bienvenido/a</span>
+            <img class="avatar" src="./imagen/iconoperfil.jpg" alt="icono perfil">
+        </div>
+    </div>
+    <div class="contenedor-blanco">
+        <div class="contenedor-menu">
+            <h1 class="tu-cuenta">Ingresa a tu cuenta</h1>
+            <input id="txtCorreo" type="text" placeholder="Ingrese su email">
+            <input id="txtContrasena" type="password" placeholder="Ingrese su contraseña">
+            <input type="button" value="Ingresar" id="btnIngresar" >
+        </div>
+    </div>
+    <div class="contenedor-verde">
+        <div class="cuenta-informacion">
+            <h3 id="cliente-cuenta">Queres comunicarte con nosotros</h3>
+            <form id="formulario">
+                <div>
+                    <label for="name">Nombre:</label>
+                    <input id="txtNombre" type="text" autocomplete="off" placeholder="Ingresa el nombre">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input id="txtEmail" type="email" autocomplete="off" placeholder="Ingresa el mail">
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="txtMensaje" placeholder="Ingresa el mensaje"></textarea>
+                </div> 
+                <div> 
+                    <input id="btnEnviar" class="links" type="submit" value="Enviar">
+                    <input id="btnLimpiar" class="links" type="reset" value="Limpiar">
+                </div> 
+            </form>
+        </div>
+    </div>
+    <div id="listado">
+    </div>
+    <footer class="footer">
+        <h2>Nuestra dirección y Telefono</h2>
+        <p>La hubicación es: Cristobal Colon 365, CABA, Argentina.
+            Teléfono: 4799-xxxx o WhatSapp: 11-1231XXXX
+        </p>
+    </footer>
+    <script src="./js/main.js"></script>
+    <script src="./js/logicaNegociosUsuarios.js"></script>
+    <script src="./js/logicaInterfazInicioSeccion.js"></script>
+    <script src="./js/cargaFormulario.js"></script>
+</body>
+</html>
